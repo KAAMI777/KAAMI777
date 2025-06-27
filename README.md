@@ -1,4 +1,4 @@
-# 👋 Hey there, I'm Sinox Ghose (aka KAAMI777)
+# 👋 Hey there, I'm Pramit Ghose (aka KAAMI777)
 
 I’m a backend-focused full-stack developer who loves designing scalable systems and turning real-world problems into practical software solutions. From building real-time services to threading-based ML integrations, I enjoy mixing clean architecture with performance engineering.
 
