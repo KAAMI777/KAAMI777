@@ -105,14 +105,6 @@ I’m a **backend-focused full-stack developer** passionate about building **sca
 
 ---
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KAAMI777&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KAAMI777&theme=tokyonight" />
-</p>
-
----
 
 ## 🌐 Let’s Connect
 
