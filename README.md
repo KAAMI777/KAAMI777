@@ -1,88 +1,107 @@
 # 👋 Hey there, I'm Pramit Ghose (aka KAAMI777)
 
-I’m a backend-focused full-stack developer who loves designing scalable systems and turning real-world problems into practical software solutions. From building real-time services to threading-based ML integrations, I enjoy mixing clean architecture with performance engineering.
+I’m a **backend-focused full-stack developer** passionate about building **scalable systems** and **real-time services**. From threading-based ML integrations to clean REST APIs, I aim to design software that’s **performant, maintainable, and solves real-world problems**.
 
 ---
 
 ## 🚀 Tech Stack & Capabilities
 
 **Languages:**  
-🐍 Python · 💠 C++ · ⚙️ C
+🐍 Python · 💠 C++ · ⚙️ C  
 
-**Core Backend:**  
-⚡ FastAPI · 🐘 PostgreSQL · 🔐 JWT Auth · 🧠 Redis · 🌐 WebSockets
+**Backend & Databases:**  
+⚡ FastAPI · 🐘 PostgreSQL · 🔐 JWT Authentication · 🧠 Redis · 🌐 WebSockets  
 
-**Skills & Concepts:**  
-- REST API design & architecture  
-- Background tasking (`semaphore`, `threading`, `concurrent.futures`)  
-- Real-time communication (1-to-1 WebSockets)  
-- Third-party API integration (Gemini, Weather APIs, etc.)  
-- Dockerized development & deployment  
-- Authentication, Authorization, RBAC  
-- Machine Learning integration (Scikit-learn models via API)  
-- Clean, testable code + team-first git workflow
+**Development Practices & Tools:**  
+- REST API Design & Clean Architecture  
+- **Docker** for containerized development  
+- Background Tasking (`semaphore`, `threading`, `concurrent.futures`)  
+- **CI/CD Pipelines** (learning & experimenting)  
+- **GraphQL** (learning)  
+- Authentication & Role-Based Access Control (RBAC)  
+- Real-time communication using WebSockets  
+- Third-party API integrations (e.g., Gemini, Weather APIs)  
+- Machine Learning model integration (currently via APIs; planning self-hosted models soon)  
+- Git workflows & collaborative development  
 
 ---
 
 ## 🧠 Highlight Projects
 
-### 📦 CARE_BRIDGE (Product in Progress)
-> 💡 A backend-first product where users can request food or medicine support in emergencies, and are matched to **volunteers** or **medical orgs** like NZO via real-time services.
+### 📦 CARE_BRIDGE (In Progress)
+> A backend-first product where users can **request food/medicine support during emergencies**, matched to **volunteers or medical organizations** (e.g., NZO) in real time.
 
-- 🔁 RESTful + WebSocket-based request system
-- 🧩 Volunteer & medical provider routing
-- 🧠 Role-based access control (JWT)
-- 📥 Request queue system for pending help
-- 💬 Status notifications and live updates
-- 🐳 Docker + Postgres + FastAPI stack
-- 🧵 Will include background tasks & chat support soon
+- RESTful + WebSocket-based help request system  
+- **Role-based access control** for users, volunteers, and medical providers  
+- Real-time status notifications and queueing  
+- **Dockerized** stack: FastAPI + PostgreSQL + Redis  
+- Future: In-app chat, AI-driven matching, analytics dashboards  
 
 ---
 
 ### 🌍 Translation Service
-> Powered by third-party AI APIs (e.g., Gemini), translates multilingual input text into English
+> AI-powered multilingual translation service using third-party APIs (Gemini).
 
-- 🔗 FastAPI + Gemini API integration  
-- 🧪 Clean and testable endpoints  
-- 💬 Returns language name, confidence, and translated text
+- FastAPI + Gemini API integration  
+- Returns language detection + confidence + translated output  
+- Modular and easy to extend  
 
 ---
 
 ### 📈 Sentiment Analyzer
-> Uses ML to classify text sentiment (positive/negative) and runs ML model in threadpool
+> Text classification using **Scikit-learn**, served via API.
 
-- 🧠 Scikit-learn model via `semaphore` and `ThreadPoolExecutor`  
-- 🔒 JWT protected API endpoints  
-- 🪶 Lightweight and responsive for production use
-
----
-
-### 📡 One-to-One Chat via WebSockets
-> A custom WebSocket-based implementation for secure one-to-one messaging
-
-- 🔐 User-authenticated socket connection  
-- 🔁 Automatic reconnection and status sync  
-- 🔧 Connection manager for live-user mapping
+- Threaded execution using `ThreadPoolExecutor` & `semaphore`  
+- JWT-protected endpoints  
+- Lightweight and production-ready  
 
 ---
 
-### 🌤️ Weather Service (Caching via Redis)
-> Fetches live weather info using a third-party weather API and caches responses in Redis
+### 📡 One-to-One Chat Service
+> A **custom WebSocket implementation** for secure **1-to-1 communication**.
 
-- 🧠 Redis + TTL for efficient response reuse  
-- 🌎 Location-based weather data  
-- 🧹 Auto-invalidates old entries
+- User-authenticated WebSocket connections  
+- Connection manager for live mapping  
+- Auto-reconnect and status synchronization  
 
 ---
 
-## 🛠️ Other Work & Micro-Projects
+### 🌤️ Weather Service with Caching
+> Live weather data fetcher with **Redis caching**.
 
-- 🧮 **Student Information System** (Python, Tkinter, MySQL)
-  - Semester marks, attendance, registration system with admin-student role separation
-- 📤 **Secure File Uploader**
-  - JWT + FastAPI + Amazon S3 + Docker + logging
-- 💬 **AI Chatbot Prototype**
-  - NLP-powered Gemini API with prompt chaining
+- TTL-based Redis cache  
+- Automatic invalidation for stale entries  
+- Location-based weather lookup  
+
+---
+
+### 🧮 Student Information System  
+> Built with **FastAPI + SQLAlchemy + MySQL** for **student registration, attendance, marks & role-based access**.
+
+**Features (based on CRUD functions):**
+- **Teachers** can:
+  - Create, update, and delete students  
+  - Add holistic evaluations (creativity, collaboration, engagement, health BMI, etc.)  
+- **Students** can:
+  - View personal details & marks  
+- **JWT Authentication** for role-based operations  
+
+---
+
+### 🤝 Hackathon Project — Code for Good (J.P. Morgan Chase, Hyderabad)
+> **Collaborated for Diksha Foundation (NGO)** to build a **holistic student evaluation platform**.
+
+- CRUD operations for **student management** & **holistic evaluations**  
+- **Role-based** teacher-student dashboard  
+- Used **FastAPI + PostgreSQL + JWT**  
+- Delivered a functional proof-of-concept within hackathon constraints  
+
+---
+
+## 🛠️ Other Micro-Projects
+
+- **Secure File Uploader** – FastAPI + S3 + JWT  
+- **AI Chatbot Prototype** – Prompt chaining via Gemini API  
 
 ---
 
@@ -97,11 +116,11 @@ I’m a backend-focused full-stack developer who loves designing scalable system
 
 ## 🌐 Let’s Connect
 
-- 📧 `pramitghose777@gmail.com` *(replace with real email)*
-
+- 📧 `pramitghose777@gmail.com`
 
 ---
 
-> 🔍 *"Great software doesn’t just run — it scales, adapts, and supports others."*  
-> I’m passionate about contributing to products that make a difference, whether in social good, AI integration, or backend performance. Always open to collaborations and internships that challenge what’s possible with clean code and bold ideas.
+> _"Great software doesn’t just run — it scales, adapts, and supports others."_  
+> I’m always open to **collaborations, internships, and challenging projects** that push the boundaries of what’s possible with clean architecture and bold ideas.
+
 
